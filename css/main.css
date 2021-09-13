@@ -205,4 +205,8 @@ p {
     img {
         grid-area: bowl-image
     }
+
+    h2 {
+        margin: 0;
+    }
 }
