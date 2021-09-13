@@ -3,6 +3,7 @@
 /* Custom properties */
 :root {
     --leading: 2em;
+    --overlay-delay: 3s;
 }
 
 body {
@@ -154,7 +155,7 @@ p {
 }
 
 .animate-overlay {
-    animation: overlay 3s forwards;
+    animation: overlay var(--overlay-delay)forwards;
 }
 
 @media (min-width: 730px) {
