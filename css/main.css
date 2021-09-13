@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:ital,wght@0,600;1,300&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+.hero-bg{
+    background: #307d99 url('../images/oranges.jpg');
+    color: white;
+    text-align: center;
+    padding: 4em;
+    
+}
+
+header {
+        padding: 1em, 0;
+    }
+
+.hero-bg a {
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 1.2rem
+}
+
+section {
+    margin: 0 1em;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 2em 0 1.2em;
+}
+
+h1 span {
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.4rem;
+    position: relative;
+    z-index: 0;
+}
+
+h1 span::before{
+    content: ' ';
+    position: absolute;
+    width: 3em;
+    background: #00bfff;
+    height: 0.4em;
+    bottom: 0;
+    z-index: -1;
+    margin-left: -.35em;
+}
